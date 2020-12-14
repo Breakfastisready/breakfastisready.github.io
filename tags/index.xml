@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Breakfastisready</title>
-        <link>https://breakfastisready.github.io/site/tags/</link>
+        <link>https://breakfastisready.github.io/tags/</link>
         <description>Latest blog posts from Breakfastisready</description>
 
         
@@ -20,17 +20,17 @@
         
 
         
-        <atom:link href="https://breakfastisready.github.io/site/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://breakfastisready.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
         
 
         
             
         <item>
           <title>Initializing my new blog</title>
-          <link>https://breakfastisready.github.io/site/blog/2020/12/initializing-my-new-blog/</link>
+          <link>https://breakfastisready.github.io/blog/2020/12/initializing-my-new-blog/</link>
           <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
           
-          <guid>https://breakfastisready.github.io/site/blog/2020/12/initializing-my-new-blog/</guid>
+          <guid>https://breakfastisready.github.io/blog/2020/12/initializing-my-new-blog/</guid>
           <description>New beginnings Here is a couplet Dr. Bashir Badr.
 कोई फूल धूप की पत्तियों में हरे रिबन से बँधा हुआ
 वो ग़ज़ल का लहजा नया नया न कहा हुआ न सुना हुआ
