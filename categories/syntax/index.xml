@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Breakfastisready</title>
+        <link>https://breakfastisready.github.io/blog/categories/syntax/</link>
+        <description>Latest blog posts from Breakfastisready</description>
+
+        
+        <language>en-us</language>
+        
+
+        
+
+        
+
+        
+
+        
+        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+        
+
+        
+        <atom:link href="https://breakfastisready.github.io/blog/categories/syntax/index.xml" rel="self" type="application/rss+xml" />
+        
+
+        
+            
+        <item>
+          <title>Initializing my new blog</title>
+          <link>https://breakfastisready.github.io/blog/blog/2020/12/initializing-my-new-blog/</link>
+          <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+          
+          <guid>https://breakfastisready.github.io/blog/blog/2020/12/initializing-my-new-blog/</guid>
+          <description>New beginnings Here is a couplet Dr. Bashir Badr.
+कोई फूल धूप की पत्तियों में हरे रिबन से बँधा हुआ
+वो ग़ज़ल का लहजा नया नया न कहा हुआ न सुना हुआ
+Here’s a translation in English:
+A flower, leaves seemingly like the sun, tied together with a green ribbon,
+The poetry here is very new, never before seen, never before heard of!</description>
+        </item>
+            
+        <item>
+          <title>Markdown Syntax Guide</title>
+          <link>https://breakfastisready.github.io/blog/blog/2019/03/markdown-syntax-guide/</link>
+          <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+          
+          <guid>https://breakfastisready.github.io/blog/blog/2019/03/markdown-syntax-guide/</guid>
+          <description><!-- raw HTML omitted --></description>
+        </item>
+            
+        
+    </channel>
+</rss>
