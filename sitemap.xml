@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.breakfastisready.xyz/categories/entertainment/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.breakfastisready.xyz/tags/film/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.breakfastisready.xyz/blog/2021/04/modern-times-review/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.breakfastisready.xyz/tags/review/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.breakfastisready.xyz/tags/youtube/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.breakfastisready.xyz/tags/am/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url>
@@ -38,11 +63,6 @@
   </url>
   
   <url>
-    <loc>https://www.breakfastisready.xyz/tags/review/</loc>
-    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.breakfastisready.xyz/tags/politics/</loc>
     <lastmod>2021-02-03T00:00:00+00:00</lastmod>
   </url>
@@ -59,21 +79,6 @@
   
   <url>
     <loc>https://www.breakfastisready.xyz/blog/2021/01/albert-pinto-ko-gussa-kyun-aata-hai-review/</loc>
-    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.breakfastisready.xyz/categories/entertainment/</loc>
-    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.breakfastisready.xyz/tags/film/</loc>
-    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.breakfastisready.xyz/tags/youtube/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
   </url>
   
