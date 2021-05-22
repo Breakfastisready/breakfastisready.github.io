@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breakfastisready - How to make a blog like this one </title>
+    <link rel="stylesheet" type="text/css" href="https://www.breakfastisready.xyz/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="https://www.breakfastisready.xyz/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="https://www.breakfastisready.xyz/css/styles.css">
+    
+    <link rel="icon" href=https://www.breakfastisready.xyz/img/icon.png>
+    <meta charset="UTF-8">
+    <meta name="author" content="Breakfastisready">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<header class="page-header">
+    <div class="myname"> 
+        <h2><a href="https://www.breakfastisready.xyz/">Breakfastisready</a></h2> 
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li class="">
+                <a href="/">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="dropdown activetab">
+                <a href ="/blog/">
+                    <span>Blog</span>
+                </a>
+                <div class=sub-menu>
+                    <a class="" href="/categories/">All Categories</a>
+                    <a class="" href="/tags/">All Tags</a>
+                    <a class="" href="/archive/">Archive</a>
+                </div>
+            </li>
+            <li class="">
+                <a href="/contact/">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="content">
+    <main>
+        <article>
+            
+            <h1 class="page-title blog">How to make a blog like this one</h1>
+            
+                <p class="blog-post-info">Posted: <time>2021-01-02</time>
+                
+    <span class="blog-taxonomy-info"> &nbsp; | &nbsp; Categories:
+        
+        
+        
+        <a class="blog-taxonomy-info" href="/categories/technology">technology</a>
+    </span>
+
+
+
+    <span class="blog-taxonomy-info"> &nbsp; | &nbsp; Tags: 
+        
+        
+        
+        <a class="blog-taxonomy-info" href="/tags/github">github</a>, <a class="blog-taxonomy-info" href="/tags/hugo">hugo</a>
+    </span>
+
+</p>
+
+                <div class="blog-post-content">
+                <p>This post is about how to make a blog for your own that resembles this one. In this post, I will make a step-by-step guide about how I made this possible so that those who want to do something similar can do so.</p>
+<p>My main target for this is will be <code>linux</code> and <code>mac</code> users. There are no prerequisites, so that it is understood by almost anyone who has some familiarity with the command line. I will explain some concepts very briefly as we encounter it, for completeness.</p>
+<p>Most of all, the purpose of this post is to help <em>SS</em> (a friend) come up with a blog. <em>SS</em> is a <code>mac</code> user and I really enjoy reading/listening to the stuff <em>SS</em> creates so I think it would look good on a blog. I will read it, certainly.</p>
+<h1 id="how-it-works">How it works</h1>
+<p>How does a website load into your browser? When somebody opens a <em>url</em> on the browser, the browser goes to a <em>DNS</em> (<em>Domain Name Setup</em>) lookup service to find the <em>IP</em> address from which some <code>html</code>, <code>css</code>, <code>javascript</code>, etc. code can be downloaded for the browser to process.</p>
+<p>Websites could be either <em>static</em> or <em>dynamic</em>. A <em>static</em> website does not interact with the server in real-time to change the content of the website. Such websites are rare. Dynamic websites such as <a href="https://www.facebook.com/"><em>facebook</em></a> are constantly interacting with their servers to load content (and to store your data, but anyway&hellip;).</p>
+<p>This website is mostly static, except for some parts like the comments section below, and the frame containing my Mastodon toots on the main page. To facilitate this setup, there are three components that work in tandem with each other. To facilitate this setup, there are three components that work in tandem with each other. To facilitate this setup, there are three components that work in tandem with each other.</p>
+<ol>
+<li>A <a href="https://github.com/"><em>github</em></a> account that contains a <em>repository</em> to host your website.</li>
+<li>Website content, either <code>html</code> code that is written by yourself, or some program that generates it for you, like <code>hugo</code>.</li>
+<li>(<strong>Optional</strong>) A <em>DNS provider</em> that gives you a nice website name. The name for this website is <code>www.breakfastisready.xyz</code>.</li>
+</ol>
+<p>I&rsquo;ll go over each one of those point by point.</p>
+<h1 id="_git_-_github_-and-all-that"><em>git</em>, <em>github</em> and all that</h1>
+<p><a href="https://en.wikipedia.org/wiki/Git">git</a> is a program that was written by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds</a>, one of the creators of <code>linux</code>. It allows one to keep track of code as it develops and allows it to revert back to a previous state when something goes wrong. It also facilitates branching of code development for the collaboration by multiple developers.</p>
+<p>Initially, <em>git</em> was used for collaboration on local networks. With the advent of the internet, websites like <a href="https://github.com/"><em>github</em></a> and <a href="https://about.gitlab.com/"><em>gitlab</em></a> started to use this protocol for &ldquo;pushing&rdquo; the code on the cloud. Eventually, <em>github</em> came up with an interesting feature: if the code being uploaded is that of a site (meaning, it contains <code>html</code>, <code>css</code>, <code>javascript</code>, etc.), <em>github</em> will display it as a site.</p>
+<p>So how do you go about this? If you don&rsquo;t have one, create an account on <em>github</em>. Suppose your username is <code>username</code>, then create a repository called <code>username.github.io</code>. Then open that repository and click on the button that says <strong>Code</strong>.</p>
+<p>Then, do the following in a terminal (of course, can choose some other folder than <code>~/blogsite</code> if you want)</p>
+<pre><code>mkdir blogsite
+cd blogsite
+
+</code></pre>
+
+
+    <div class="social">
+        <ul>
+            <li><a href="https://github.com/Breakfastisready"><i class="fab fa-github-alt fa-fw"></i>GitHub</a></li><li><a href="https://twitter.com/Breakfastisrea1"><i class="fab fa-twitter fa-fw"></i>Twitter</a></li><li><a href="https://mathstodon.xyz/@Breakfastisready"><i class="fab fa-mastodon fa-fw"></i>Mastodon</a></li><li><a href="mailto:secretcatparty@tutanota.com"><i class="fas fa-envelope fa-fw"></i>Email</a></li><li><a href="https://www.breakfastisready.xyz/blog/index.xml"><i class="fas fa-rss fa-fw"></i>RSS</a></li></ul>
+    </div>
+
+
+<!-- Icons are from Awesome Font, licenced under SIL OFL 1.1 (https://scripts.sil.org/OFL) -->
+
+
+                </div>
+
+
+
+
+			<script src="https://utteranc.es/client.js"
+				repo="breakfastisready/breakfastisready.github.io"
+				issue-term="url"
+				theme="github-light"
+				crossorigin="anonymous"
+				async>
+			</script>
+            
+        </article>
+    </main>
+
+        </div>
+    </body>
+</html>
