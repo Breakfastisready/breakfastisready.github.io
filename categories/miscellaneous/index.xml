@@ -16,7 +16,7 @@
         
 
         
-        <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate>
         
 
         
@@ -24,6 +24,19 @@
         
 
         
+            
+        <item>
+          <title>Posting after a while</title>
+          <link>https://www.breakfastisready.xyz/blog/2022/12/posting-after-a-while/</link>
+          <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+          
+          <guid>https://www.breakfastisready.xyz/blog/2022/12/posting-after-a-while/</guid>
+          <description>Just writing a post to check if my new setup works.
+I recently bought a Pinephone Pro with a keyboard attachment.
+The setup works very well and is very handy. Typing experience is okay. The best part is being able to use vim on the go.
+Shoot me an email/comment if you wanna know more.
+GitHubTwitterMastodonEmailRSS</description>
+        </item>
             
         <item>
           <title>Exchanges with a friend</title>
@@ -215,18 +228,6 @@ Here’s a translation in English:
 A flower, leaves seemingly like the sun, tied together with a green ribbon,
 The poetry here is very new, never before seen, never before heard of.
 You can continue reading the rest of the poem here.</description>
-        </item>
-            
-        <item>
-          <title></title>
-          <link>https://www.breakfastisready.xyz/blog/1/01/</link>
-          <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-          
-          <guid>https://www.breakfastisready.xyz/blog/1/01/</guid>
-          <description>jjj++ author = “Breakfastisready” title= “Posting after a while” draft = false date = “2022-12-22” description = “Still alive” tags= [“personal”] categories= [“miscellaneous”] +++
-Just writing a post to check if my new setup works.
-I recently bought a Pinephone Pro with a keyboard attachment.
-The setup works very well and is very handy. Typing experience is okay. The best part is being able to use vim on the go.</description>
         </item>
             
         

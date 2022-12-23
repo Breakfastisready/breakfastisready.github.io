@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.breakfastisready.xyz/categories/miscellaneous/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.breakfastisready.xyz/tags/personal/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.breakfastisready.xyz/blog/2022/12/posting-after-a-while/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.breakfastisready.xyz/tags/analysis/</loc>
     <lastmod>2022-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.breakfastisready.xyz/blog/2022/04/exchanges-with-a-friend/</loc>
-    <lastmod>2022-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.breakfastisready.xyz/tags/personal/</loc>
     <lastmod>2022-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.breakfastisready.xyz/tags/politics/</loc>
@@ -104,9 +110,6 @@
     <loc>https://www.breakfastisready.xyz/blog/2020/12/here-cometh-2021/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.breakfastisready.xyz/categories/miscellaneous/</loc>
-    <lastmod>2020-12-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.breakfastisready.xyz/blog/2020/12/death-to-my-2020-self/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -148,8 +151,6 @@
   </url><url>
     <loc>https://www.breakfastisready.xyz/</loc>
     <lastmod>2020-06-01T16:16:24+02:00</lastmod>
-  </url><url>
-    <loc>https://www.breakfastisready.xyz/blog/1/01/</loc>
   </url><url>
     <loc>https://www.breakfastisready.xyz/archive/</loc>
   </url><url>
