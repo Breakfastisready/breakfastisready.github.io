@@ -221,7 +221,7 @@ You can continue reading the rest of the poem here.</description>
           <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
           
           <guid>https://www.breakfastisready.xyz/blog/1/01/</guid>
-          <description>jjj++ author = “Breakfastisready” title= “Haven’t posted in a whil” draft = false date = “2022-12-22” description = “Still alive” tags= [“personal”] categories= [“miscellaneous”] +++
+          <description>jjj++ author = “Breakfastisready” title= “Posting after a while” draft = false date = “2022-12-22” description = “Still alive” tags= [“personal”] categories= [“miscellaneous”] +++
 Just writing a post to check if my new setup works.
 I recently bought a Pinephone Pro with a keyboard attachment.
 The setup works very well and is very handy. Typing experience is okay. The best part is being able to use vim on the go.</description>
