@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breakfastisready - How to be a linux DJ on a short notice </title>
+    <link rel="stylesheet" type="text/css" href="https://www.breakfastisready.xyz/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="https://www.breakfastisready.xyz/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="https://www.breakfastisready.xyz/css/styles.css">
+    
+    <link rel="icon" href=https://www.breakfastisready.xyz/img/icon.png>
+    <meta charset="UTF-8">
+    <meta name="author" content="Breakfastisready">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<header class="page-header">
+    <div class="myname"> 
+        <h2><a href="https://www.breakfastisready.xyz/">Breakfastisready</a></h2> 
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li class="">
+                <a href="/">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="dropdown activetab">
+                <a href ="/blog/">
+                    <span>Blog</span>
+                </a>
+                <div class=sub-menu>
+                    <a class="" href="/categories/">All Categories</a>
+                    <a class="" href="/tags/">All Tags</a>
+                    <a class="" href="/archive/">Archive</a>
+                </div>
+            </li>
+            <li class="">
+                <a href="/contact/">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="content">
+    <main>
+        <article>
+            
+            <h1 class="page-title blog">How to be a linux DJ on a short notice</h1>
+            
+                <p class="blog-post-info">Posted: <time>2023-03-31</time>
+                
+    <span class="blog-taxonomy-info"> &nbsp; | &nbsp; Categories:
+        
+        
+        
+        <a class="blog-taxonomy-info" href="/categories/entertainment">entertainment</a>
+    </span>
+
+
+
+    <span class="blog-taxonomy-info"> &nbsp; | &nbsp; Tags: 
+        
+        
+        
+        <a class="blog-taxonomy-info" href="/tags/linux">linux</a>, <a class="blog-taxonomy-info" href="/tags/music">music</a>, <a class="blog-taxonomy-info" href="/tags/tutorial">tutorial</a>
+    </span>
+
+</p>
+
+                <div class="blog-post-content">
+                <p>I was given a very short notice (~48 hours) to become a DJ for a party. Here I am writing a blog post about how to do it the night before. Since I am a linux user, I had to find a way to do this on linux.</p>
+<p>Considering how busy I am with my doctoral work and research, I had to find some quick solutions.
+Fortunately, the machinery to do this sort of stuff already exists and I wrote some notes about it. Sharing it to all of you here.</p>
+<h1 id="getting-the-playlist">Getting the playlist</h1>
+<p>I need to first download my spotify playlist. Going to use spotDL</p>
+<p><a href="https://github.com/spotDL/spotify-downloader">https://github.com/spotDL/spotify-downloader</a></p>
+<p>Did the following in <code>~/useful_scripts</code></p>
+<pre tabindex="0"><code>git clone https://github.com/spotDL/spotify-downloader
+</code></pre><p>Wrong move!</p>
+<p>Should have done</p>
+<pre tabindex="0"><code>python3 -m pip  install spotdl
+</code></pre><p>Then, it could be run by the following command for example</p>
+<pre tabindex="0"><code>python3 -m spotdl --version
+</code></pre><p>Then</p>
+<pre tabindex="0"><code>cd ~/Downloads
+mkdir dj_songs &amp;&amp; cd dj_songs
+python3 -m spotdl [[my_spotify_playlist_url]]]
+</code></pre><p>Alrighty! Quite an impressive script. Some of the lookups failed though, but I hope that will not be such a big problem.</p>
+<p>But I wanted better sound quality than this. Let&rsquo;s think about it a bit later</p>
+<h1 id="using-mixxx">Using <code>mixxx</code></h1>
+<p>I just did a</p>
+<pre tabindex="0"><code>sudo apt install mixxx
+</code></pre><p>on my Ubuntu and I had it with me.</p>
+<p>It&rsquo;s on. Asked me to configure audio devices and asked for a library. I think I figured it out.</p>
+<p>It&rsquo;s so confusing! There are so many knobs and buttons. This is exactly the nightmare I was afraid of.
+After fidling with it a bit, I think I figured it out though.</p>
+<p>The way to do it is to first right-click a song in the library, load it into Deck 1 and play it. Take the central knob all the way to the left. While that song is playing, load up another one on the right. Play it, switch the slider to the left and then while the second is playing you pause the first one.</p>
+<p>It&rsquo;s basically a game of juggling. It&rsquo;s a good idea to sort your songs by BPM (beats per minute) and increase the BPM thoughout the DJ performance. Keep the fast paced songs in the end. While switching songs, it seems more natural to transition to songs of roughly the same BPM.</p>
+<p>The interface has the nice feature that it doesn&rsquo;t let you load a track into a deck that&rsquo;s already playing.
+But make sure to check which deck is being played before pausing the deck!</p>
+<h1 id="using-youtube-premium-for-better-sound-quality">Using youtube premium for better sound quality</h1>
+<p>As it says in the <a href="https://spotdl.readthedocs.io/en/latest/usage/">docs</a>,
+you need a <code>cookie.txt</code> file. For this, you can use the Firefox extenstion available</p>
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/">https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/</a></p>
+<p>You can login to your youtube-premium account and get 256kbps bitrate instead of 128kbps.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>So this is it, in a nutshell! I&rsquo;ll write a bit more when the party ends.</p>
+
+                </div>
+
+
+
+
+			<script src="https://utteranc.es/client.js"
+				repo="breakfastisready/breakfastisready.github.io"
+				issue-term="url"
+				theme="github-light"
+				crossorigin="anonymous"
+				async>
+			</script>
+            
+        </article>
+    </main>
+
+        </div>
+    </body>
+</html>
